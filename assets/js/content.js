@@ -97,11 +97,9 @@ window.NINE = {
     {id: "fotografia", nome: "Fotografia", pasta: "Fotografia", descricao: "Ensaios, retratos, eventos e registros com luz e direção cuidadas.", tags: ["Ensaio","Retrato","Evento"], capa: {tipo: "img", src: "assets/img/foto-bailarina-sm.webp", alt: "Retrato de bailarina"}},
     {id: "social", nome: "Social Media", pasta: "Social Média", descricao: "Planejamento, produção e gestão de perfis, com Reels e feed pensados para cada marca.", tags: ["Conteúdo","Reels","Gestão"], capa: {tipo: "video", src: "assets/video/honda-motos-andrade.mp4", poster: "assets/video/honda-motos-andrade.webp", alt: "Reels de concessionária de motos"}},
     {id: "gastronomia", nome: "Gastronomia", pasta: "Gastronomia", descricao: "Comida e produto com apetite visual, para cardápio, feed e anúncio.", tags: ["Food","Produto","Reels"]},
-    {id: "branding", nome: "Branding e design", pasta: "Branding e design", descricao: "Identidade visual e peças gráficas coerentes em todos os pontos de contato.", tags: ["Identidade","Peças","Campanhas"], capa: {tipo: "img", src: "assets/img/design-mega-combo-sm.webp", alt: "Peça Mega Combo"}},
-    {id: "cases", nome: "Cases reais", pasta: "Cases Reais", descricao: "Capturas do Instagram Insights com os números de perfis atendidos.", tags: ["Insights","Alcance","Resultados"], capa: {tipo: "img", src: "assets/img/case-reel-2mi-sm.webp", alt: "Captura de Insights"}},
-    {id: "idv", nome: "IDV Nine Action", pasta: "IDV Nine Action", descricao: "A identidade visual da própria Nine Action: logotipo, versões e paleta.", tags: ["Logo","Paleta","Marca"], capa: {tipo: "img", src: "assets/img/idv-paleta-sm.webp", alt: "Paleta de cores da Nine Action"}},
-    {id: "socias", nome: "Foto das sócias", pasta: "Foto das sócias institucional", descricao: "Retrato institucional das sócias da Nine Action.", tags: ["Institucional","Retrato"], capa: {tipo: "img", src: "assets/img/socias-sm.webp", alt: "Sócias da Nine Action"}}
+    {id: "branding", nome: "Branding e design", pasta: "Branding e design", descricao: "Identidade visual e peças gráficas coerentes em todos os pontos de contato.", tags: ["Identidade","Peças","Campanhas"], capa: {tipo: "img", src: "assets/img/design-mega-combo-sm.webp", alt: "Peça Mega Combo"}}
   ],
+
 
 
   /*
@@ -126,17 +124,6 @@ window.NINE = {
     {tipo: "img", cats: ["social"], titulo: "Feed de produtos de saúde", segmento: "Loja de produtos hospitalares", formato: "h", src: "assets/img/feed-saude.webp", thumb: "assets/img/feed-saude-sm.webp", alt: "Captura de tela do feed do Instagram com cadeiras de rodas, calçados e apresentadora"},
     {tipo: "img", cats: ["social"], titulo: "Feed de farmácia", segmento: "Farmácia", formato: "h", src: "assets/img/feed-farmacia.webp", thumb: "assets/img/feed-farmacia-sm.webp", alt: "Captura de tela do feed do Instagram em vermelho e branco com conteúdos de saúde"},
     {tipo: "img", cats: ["social"], titulo: "Feed de criadora de conteúdo", segmento: "Universo country", formato: "h", src: "assets/img/feed-country.webp", thumb: "assets/img/feed-country-sm.webp", alt: "Captura de tela do feed do Instagram com pessoas de chapéu de caubói e paisagens rurais"},
-    {tipo: "img", cats: ["cases"], titulo: "4.058.391 visualizações", segmento: "Conta de cliente · período personalizado", formato: "v", src: "assets/img/case-conta-4mi.webp", thumb: "assets/img/case-conta-4mi-sm.webp", alt: "Captura do Instagram Insights com 4.058.391 visualizações e 11.408 seguidores líquidos"},
-    {tipo: "img", cats: ["cases"], titulo: "2.105.876 visualizações", segmento: "Reels em colaboração", formato: "v", src: "assets/img/case-reel-2mi.webp", thumb: "assets/img/case-reel-2mi-sm.webp", alt: "Captura de Insights de Reels com 2.105.876 visualizações"},
-    {tipo: "img", cats: ["cases"], titulo: "1.147.134 visualizações", segmento: "Reels em colaboração", formato: "v", src: "assets/img/case-reel-1mi.webp", thumb: "assets/img/case-reel-1mi-sm.webp", alt: "Captura de Insights de Reels com 1.147.134 visualizações"},
-    {tipo: "img", cats: ["cases"], titulo: "280.153 visualizações", segmento: "Reels", formato: "v", src: "assets/img/case-reel-280k.webp", thumb: "assets/img/case-reel-280k-sm.webp", alt: "Captura de Insights de Reels com 280.153 visualizações"},
-    {tipo: "img", cats: ["cases"], titulo: "4,0 mi de visualizações nos últimos 30 dias", segmento: "Painel profissional", formato: "h", src: "assets/img/case-painel-4mi.webp", thumb: "assets/img/case-painel-4mi-sm.webp", alt: "Painel profissional do Instagram: 4,0 mi visualizações nos últimos 30 dias"},
-    {tipo: "img", cats: ["cases"], titulo: "2,1 mi de visualizações nos últimos 30 dias", segmento: "Painel profissional", formato: "h", src: "assets/img/case-painel-2mi.webp", thumb: "assets/img/case-painel-2mi-sm.webp", alt: "Painel profissional do Instagram: 2,1 mi visualizações nos últimos 30 dias"},
-    {tipo: "img", cats: ["idv"], titulo: "Logo para fundo claro", segmento: "Identidade visual", formato: "q", src: "assets/img/idv-logo-fundo-branco.webp", thumb: "assets/img/idv-logo-fundo-branco-sm.webp", alt: "Logo Nine Action Estratégia & Conteúdo em fundo claro"},
-    {tipo: "img", cats: ["idv"], titulo: "Logo para fundo escuro", segmento: "Identidade visual", formato: "v", src: "assets/img/idv-logo-fundo-preto.webp", thumb: "assets/img/idv-logo-fundo-preto-sm.webp", alt: "Logo Nine Action Marketing Digital em fundo preto"},
-    {tipo: "img", cats: ["idv"], titulo: "Paleta de cores", segmento: "Identidade visual", formato: "q", src: "assets/img/idv-paleta.webp", thumb: "assets/img/idv-paleta-sm.webp", alt: "Paleta de cores: F6F4F8, CF39DE, 9A57D7, 5B2D8B, 2E1A47 e 000000"},
-    {tipo: "img", cats: ["idv"], titulo: "Banner da marca", segmento: "Identidade visual", formato: "h", src: "assets/img/idv-banner.webp", thumb: "assets/img/idv-banner.webp", alt: "Banner roxo com logo Nine Action Marketing Digital"},
-    {tipo: "img", cats: ["socias"], titulo: "Sócias da Nine Action", segmento: "Retrato institucional", formato: "v", src: "assets/img/socias.webp", thumb: "assets/img/socias-sm.webp", alt: "As duas sócias da Nine Action de costas uma para a outra, com bastão de luz e câmera"},
     {tipo: "video", cats: ["eventos"], titulo: "Retrospectiva 2025", segmento: "Escola técnica", cliente: "Etec", formato: "h", src: "assets/video/eventos-retrospectiva-2025.mp4", thumb: "assets/video/eventos-retrospectiva-2025.webp", detalhe: "Horizontal · 62 s", alt: "Retrospectiva 2025, Escola técnica"},
     {tipo: "video", cats: ["eventos"], titulo: "Vídeo oficial de casamento", segmento: "Casamento", cliente: "Letícia & João Pedro", formato: "h", src: "assets/video/eventos-video-oficial-de-casamento.mp4", thumb: "assets/video/eventos-video-oficial-de-casamento.webp", detalhe: "Destaques do filme · 60 s", alt: "Vídeo oficial de casamento, Casamento"},
     {tipo: "video", cats: ["eventos"], titulo: "Revelando SP", segmento: "Evento musical", cliente: "Sonare", formato: "v", src: "assets/video/eventos-revelando-sp.mp4", thumb: "assets/video/eventos-revelando-sp.webp", detalhe: "Vertical · 57 s", alt: "Revelando SP, Evento musical"},
@@ -175,6 +162,7 @@ window.NINE = {
     {tipo: "video", cats: ["gastronomia"], titulo: "Todo mundo ama o Maik", segmento: "Restaurante", cliente: "Toca Gourmet do Maik", formato: "v", src: "assets/video/gastronomia-todo-mundo-ama-o-maik.mp4", thumb: "assets/video/gastronomia-todo-mundo-ama-o-maik.webp", detalhe: "Vertical · 34 s", alt: "Todo mundo ama o Maik, Restaurante"},
     {tipo: "video", cats: ["gastronomia"], titulo: "Tem coisas que o alface não cura", segmento: "Restaurante", formato: "v", src: "assets/video/gastronomia-tem-coisas-que-o-alface-nao-cura.mp4", thumb: "assets/video/gastronomia-tem-coisas-que-o-alface-nao-cura.webp", detalhe: "Vertical · 7 s", alt: "Tem coisas que o alface não cura, Restaurante"}
   ],
+
 
 
 
