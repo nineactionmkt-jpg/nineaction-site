@@ -13,7 +13,7 @@ window.NINE = {
     // Opcional: número no formato internacional, só dígitos (ex.: "5517999999999").
     // Quando preenchido, o site abre o WhatsApp com a mensagem já escrita.
     // Enquanto estiver vazio, o site usa o link acima e oferece um botão para copiar a mensagem.
-    whatsappNumero: "",
+    whatsappNumero: "5517996001803",
     mensagemPadrao:
       "Olá! Conheci a Nine Action pelo site e gostaria de conversar sobre um projeto para a minha marca.",
     instagram: { usuario: "@nineaction.mkt", url: "https://www.instagram.com/nineaction.mkt/" },

@@ -428,10 +428,12 @@
     $("#f-msg").value = text;
     var hasNum = !!(D.contato.whatsappNumero || "").replace(/\D/g, "");
     $("#done-wa").href = waUrl(text);
+    if (hasNum) window.open(waUrl(text), "_blank", "noopener");
     $("#done-instr").textContent = hasNum
-      ? "Toque em “Abrir WhatsApp”. A mensagem abaixo já vai preenchida; confira e toque em enviar. A solicitação só chega até nós depois do seu envio."
+      ? "Abrimos o WhatsApp da Nine Action com a sua mensagem já escrita. É só tocar em enviar. Se ele não abriu, toque em “Abrir WhatsApp”. A solicitação só chega até nós depois do seu envio."
       : "1. Toque em “Copiar mensagem”. 2. Toque em “Abrir WhatsApp” e cole o texto na conversa com a Nine Action. 3. Envie. A solicitação só chega até nós depois do seu envio.";
     $("#copy-status").textContent = "";
+    $("#done-copy").hidden = hasNum;
     form.hidden = true; done.hidden = false; done.focus();
   });
   $("#done-edit").addEventListener("click", function () { done.hidden = true; form.hidden = false; $("#f-nome").focus(); });
