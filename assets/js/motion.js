@@ -19,12 +19,12 @@
       var v = en.target;
       if (en.isIntersecting) { var p = v.play(); if (p && p.catch) p.catch(function () {}); } else v.pause();
     });
-  }, { threshold: .15 }) : null;
+  }, { rootMargin: "150px 0px", threshold: .01 }) : null;
   function watchVideos() {
-    $$("video[autoplay]").forEach(function (v) {
+    $$("video[data-auto]").forEach(function (v) {
       if (v.dataset.watched || v.closest(".lightbox")) return;
-      v.dataset.watched = "1"; v.muted = true;
-      if (reduce) { v.removeAttribute("autoplay"); v.pause(); return; }
+      v.dataset.watched = "1"; v.muted = true; v.defaultMuted = true;
+      if (reduce) { v.pause(); return; }
       if (vidObs) vidObs.observe(v); else v.play().catch(function () {});
     });
   }

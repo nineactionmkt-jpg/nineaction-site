@@ -17,10 +17,12 @@
     var webm = src.replace(/\.mp4$/, ".webm");
     return (webm !== src ? '<source src="' + esc(webm) + '" type="video/webm">' : "") + '<source src="' + esc(src) + '" type="video/mp4">';
   }
-  // Vídeo sem som que toca sozinho (o motion.js pausa quando sai da tela).
+  // Prévia leve (6 s, sem som) que toca sozinha. O motion.js só carrega quando ela aparece na tela
+  // e pausa quando sai. O vídeo completo, com som, abre na tela cheia.
   function autoVideo(src, poster, label, cls) {
-    return '<video' + (cls ? ' class="' + cls + '"' : "") + ' poster="' + esc(poster || "") + '" muted loop playsinline autoplay preload="metadata"' +
-      (label ? ' aria-label="' + esc(label) + '"' : ' aria-hidden="true"') + ">" + sources(src) + "</video>";
+    var preview = src.replace(/\.mp4$/, "-preview.mp4");
+    return '<video' + (cls ? ' class="' + cls + '"' : "") + ' poster="' + esc(poster || "") + '" muted loop playsinline preload="none" data-auto' +
+      (label ? ' aria-label="' + esc(label) + '"' : ' aria-hidden="true"') + ">" + sources(preview) + "</video>";
   }
   function media(m, cls) {
     if (!m) return "";
